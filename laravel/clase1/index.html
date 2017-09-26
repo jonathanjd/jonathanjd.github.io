@@ -513,7 +513,8 @@
           <h2><strong>QUÉ ES UN CONSTRUCTOR?</strong></h2>
           <blockquote>
             <p>"ES UN MÉTODO MÁGICO DE PHP QUE AL INSTANCIAR UNA CLASE ESTE MÉTODO SE EJECUTA AL COMIENZO DE MANERA AUTOMÁTICA
-              ."</p>
+              ."
+            </p>
             <p>"CADA VEZ QUE SE CREA UNA INSTANCIA DE UNA CLASE, SE EJECUTA ESTE MÉTODO DE CONSTRUCTOR ."</p>
           </blockquote>
         </div>
@@ -605,10 +606,8 @@
           <div class="content-left">
             <h2>Modificadores</h2>
             <p><code>Tipo Public</code></p>
-            <p>
-              <code>
-                              Esta propiedad es muy simple, se puede realizar de todo con el atributo o el método.
-                          </code>
+            <p>             
+              Esta propiedad es muy simple, se puede realizar de todo con el atributo o el método.             
             </p>
           </div>
           <div class="content-right">
@@ -625,9 +624,7 @@
             <h2>Modificadores</h2>
             <p><code>Tipo Private</code></p>
             <p>
-              <code>
-                                Hace que los atributos y métodos  se pueda utilizar desde la misma clase que las define.
-                            </code>
+              Hace que los atributos y métodos  se pueda utilizar desde la misma clase que las define.                            
             </p>
           </div>
           <div class="content-right">
@@ -644,9 +641,7 @@
             <h2>Modificadores</h2>
             <p><code>Tipo Protected</code></p>
             <p>
-              <code>
-                                  Hace que los atributos y métodos  se pueda  acceder desde la clase que las define y también desde cualquier otra clase que herede de ella.
-                              </code>
+              Hace que los atributos y métodos  se pueda  acceder desde la clase que las define y también desde cualquier otra clase que herede de ella.            
             </p>
           </div>
           <div class="content-right">
@@ -758,13 +753,286 @@
       </section>
 
       <section>
-          <!--.wrap = container (width: 90%) -->
-          <div class="wrap aligncenter">
-            <p class="text-subtitle">PROGRAMACIÓN ORIENTADA A OBJETO</p>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap aligncenter">
+          <p class="text-subtitle">PROGRAMACIÓN ORIENTADA A OBJETO</p>
+          <h2>Herencia</h2>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2><strong>QUÉ ES HERENCIA?</strong></h2>
+          <blockquote>
+            <p>"ES CUANDO UNA CLASE DERIVA DE OTRA AUTOMÁTICAMENTE HEREDA SUS ATRIBUTOS Y MÉTODOS."
+            </p>
+            <P>
+              EN PHP, A DIFERENCIA DE OTROS LENGUAJES ORIENTADOS A OBJETOS(C++), UNA CLASE SÓLO PUEDE DERIVAR DE UNA ÚNICA CLASE, ES DECIR, PHP NO PERMITE HERENCIA MÚLTIPLE.              
+            </P>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
             <h2>Herencia</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>Crear la clase Papa con la siguiente características</li>
+            </ul>
           </div>
-          <!-- .end .wrap -->
-        </section>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code16.png" alt="code16">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Herencia</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>Crear la clase Hijo con la siguiente características</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code17.png" alt="code17">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Herencia</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>Pruebas</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code18.png" alt="code18">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2><strong>STATIC(MÉTODOS Y ATRIBUTOS)</strong></h2>
+          <blockquote>
+            <p>"UN MÉTODO ESTÁTICO PERTENCE A LA CLASE PERO NO PUEDE ACCEDER A LOS ATRIBUTOS DE UNA INSTANCIA. LA CARACTERÍSTICA FUNDAMENTAL ES QUE UN MÉTODO ESTÁTICO SE  PUEDE LLAMAR SI TENER QUE CREAR UN OBJETO DE DICHA CLASE."
+            </p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2><strong>MÉTODOS Y ATRIBUTOS ESTÁTICOS</strong></h2>
+          <blockquote>
+            <p>"UN MÉTODO ESTÁTICO NO PUEDE ACCEDER A LOS ATRIBUTOS DE LA CLASE."</p>
+            <p>"PARA CREAR SE NECESITA EL NOMBRE DE LA CLASE SEGUIDO DEL OPERADOR  '::' Y POR ÚLTIMO EL NOMBRE DEL MÉTODO ESTÁTICO A LLAMAR."</p>
+            <p>"LAS PROPIEDADES ESTÁTICAS NO PUEDEN SER ACCEDIDAS A TRAVÉS DEL OBJETO UTILIZANDO EL OPERADOR FLECHA '->'."</p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Static</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>CREAR UNA CLASE PERSONA CON LOS SIGUIENTES DATOS</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code19.png" alt="code19">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Static</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code20.png" alt="code20">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Static</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code21.png" alt="code21">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <!--.wrap = container (width: 90%) -->
+        <div class="wrap size-50 aligncenter">
+          <h2><strong>TRAITS</strong></h2>
+          <blockquote>
+            <p>"SON UN MECANISMO DE REUTILIZACIÓN DE CÓDIGO EN LENGUAJES DE HERENCIA SIMPLE, COMO PHP. EL OBJETIVO DE UN TRAITS ES EL DE REDUCIR LAS LIMITACIONES PROPIAS DE LA HERENCIA SIMPLE PERMITIENDO QUE LOS DESARROLLADORES REUTILICEN A VOLUNTAD CONJUNTOS DE MÉTODOS SOBRE VARIAS CLASES INDEPENDIENTES Y PERTENECIENTES A CLASES JERÁRQUICAS DISTINTAS."
+            </p>
+            <p>"UN TRAIT ES SIMILAR A UNA CLASE, PERO CON EL ÚNICO OBJETIVO DE AGRUPAR FUNCIONALIDADES MUY ESPECÍFICAS Y DE UNA MANERA COHERENTE. NO SE PUEDE INSTANCIAR DIRECTAMENTE UN TRAIT. ES POR TANTO UN AÑADIDO A LA HERENCIA TRADICIONAL."</p>
+          </blockquote>
+        </div>
+        <!-- .end .wrap -->
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Traits</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>Para crear un trait debemos usar la palabra clave trait</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code22.png" alt="code22">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Traits</h2>
+            <p><code>¿Qué puede contener un trait?</code></p>
+            <ul class="text-cols">
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code23.png" alt="code23">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Traits</h2>
+            <p><code>¿Qué puede contener un trait?</code></p>
+            <ul class="text-cols">
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code24.png" alt="code24">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Traits</h2>
+            <p><code>Usando Trait</code></p>
+            <ul class="text-cols">
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code25.png" alt="code25">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <div class="content-left">
+            <h2>Traits</h2>
+            <p><code>Programar</code></p>
+            <ul class="text-cols">
+              <li>...</li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <figure class="fadeInUp">
+              <img src="images/code26.png" alt="code26">
+              <figcaption>
+                <h2><strong class="bg-blue">index.php</strong></h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
 
     </article>
     <!-- .webslides -->
