@@ -48,7 +48,7 @@ p {
 
 /* Links */
 a {
-    color: #ED615C;
+    color: #8D99AE;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -95,8 +95,8 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #ED615C;
-	border-color: #ED615C;
+	background-color: #8D99AE;
+	border-color: #8D99AE;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -122,7 +122,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #ED615C;
+  background-color: #8D99AE;
 }
 
 
@@ -149,7 +149,7 @@ a:after {
 
 
 #footer {
-	background-color: #322730;
+	background-color: #2B2D42;
 	padding-top: 50px;
 	padding-bottom: 50px; 
 }
@@ -238,5 +238,5 @@ bt {
 
 .glyphicon {
 	font-size: 40px;
-	color: #ED615C;
+	color: #8D99AE;
 }
